@@ -13,6 +13,6 @@ def find_even_values(src)
 #    count += 1
 #    end
 #  end
-src.count do |count| count.even?
-count
+if src.each do |x| % 2 == 0 
+  puts X
 end
