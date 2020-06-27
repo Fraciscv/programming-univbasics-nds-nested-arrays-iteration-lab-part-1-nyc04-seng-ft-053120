@@ -1,7 +1,7 @@
 require 'pry'
 
 def find_even_values(src)
- count = 0
+ #count = 0
    while count < src.count do
     inner_count = 0
     while inner_count < src[count].count do
